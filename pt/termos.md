@@ -1,6 +1,6 @@
 # Termos de Uso — Zplit
 
-**Última atualização:** <<DATA_PUBLICACAO>>
+**Última atualização:** 06/05/2026
 
 > A versão em português é a juridicamente vinculante. Uma tradução em inglês está disponível em [/en/terms](../en/terms) para conveniência.
 
@@ -8,7 +8,7 @@
 
 ## §1 Identificação do responsável
 
-O aplicativo Zplit (`<<NOME_FANTASIA>>`) é desenvolvido e operado por **<<RAZAO_SOCIAL>>**, inscrita no CNPJ sob o nº **<<CNPJ>>**. Para qualquer assunto relativo a estes Termos de Uso, o canal oficial de contato é o e-mail **<<EMAIL_SUPORTE>>**.
+O aplicativo Zplit é desenvolvido e operado por **55.936.782 LUCAS SCHMIDT**, inscrita no CNPJ sob o nº **55.936.782/0001-67**. Para qualquer assunto relativo a estes Termos de Uso, o canal oficial de contato é o e-mail **zplit.team@gmail.com**.
 
 Estes Termos são publicados em conformidade com o **Marco Civil da Internet (Lei nº 12.965/2014)**, que rege o uso da internet no Brasil e exige a identificação clara do responsável pelo serviço, a descrição das condições de uso e do escopo das funcionalidades.
 
@@ -46,7 +46,7 @@ A sua conta no Zplit é **pessoal e intransferível**. Você é responsável por
 - **Manter a confidencialidade da sua senha** e demais credenciais de acesso;
 - **Manter os dados de cadastro atualizados** (e-mail, nome, telefone, se preenchido);
 - **Todas as ações realizadas sob a sua conta**, ainda que executadas por terceiros com ou sem o seu consentimento;
-- Notificar-nos imediatamente, via **<<EMAIL_SUPORTE>>**, em caso de uso não autorizado da sua conta ou de qualquer outra falha de segurança de que tomar conhecimento.
+- Notificar-nos imediatamente, via **zplit.team@gmail.com**, em caso de uso não autorizado da sua conta ou de qualquer outra falha de segurança de que tomar conhecimento.
 
 ## §6 Uso aceitável
 
@@ -64,9 +64,9 @@ Você concorda em **não utilizar o Zplit** para:
 
 **Seus dados são seus.** Você mantém a titularidade integral sobre todo o conteúdo que insere no Zplit (nomes de eventos, descrições, valores de despesas, dados dos participantes que você adiciona, imagens de cupom fiscal, etc.).
 
-Para que o serviço possa funcionar, você concede a **<<RAZAO_SOCIAL>>** uma **licença limitada, gratuita, não exclusiva e revogável** para processar, armazenar e exibir esses dados estritamente para o propósito de **operar o serviço para você**. Essa licença termina quando você exclui o conteúdo ou a sua conta.
+Para que o serviço possa funcionar, você concede a **55.936.782 LUCAS SCHMIDT** uma **licença limitada, gratuita, não exclusiva e revogável** para processar, armazenar e exibir esses dados estritamente para o propósito de **operar o serviço para você**. Essa licença termina quando você exclui o conteúdo ou a sua conta.
 
-O **código-fonte, design, layout, marca, logotipo, nome "Zplit", textos, ícones e demais materiais** do aplicativo são de **propriedade exclusiva de <<RAZAO_SOCIAL>>** ou de seus licenciantes, protegidos pela legislação brasileira de propriedade intelectual e direitos autorais. **Nada nestes Termos transfere a você qualquer direito sobre essa propriedade intelectual.** É proibido copiar, modificar, distribuir, vender ou criar obras derivadas sem autorização expressa por escrito.
+O **código-fonte, design, layout, marca, logotipo, nome "Zplit", textos, ícones e demais materiais** do aplicativo são de **propriedade exclusiva de 55.936.782 LUCAS SCHMIDT** ou de seus licenciantes, protegidos pela legislação brasileira de propriedade intelectual e direitos autorais. **Nada nestes Termos transfere a você qualquer direito sobre essa propriedade intelectual.** É proibido copiar, modificar, distribuir, vender ou criar obras derivadas sem autorização expressa por escrito.
 
 ## §8 Funcionalidades pagas vs gratuitas
 
@@ -84,7 +84,7 @@ O Zplit é fornecido **"como está"** e **"conforme disponível"**, sem garantia
 
 **Você é o único responsável por conferir os cálculos** apresentados pelo aplicativo antes de cobrar qualquer valor de seus participantes. O Zplit não substitui a sua diligência: revise os totais, os itens importados via cupom fiscal e a divisão antes de comunicar valores.
 
-Na máxima extensão permitida pela legislação aplicável, **<<RAZAO_SOCIAL>> não se responsabiliza por**:
+Na máxima extensão permitida pela legislação aplicável, **55.936.782 LUCAS SCHMIDT não se responsabiliza por**:
 
 - Divergências entre o cálculo apresentado pelo aplicativo e o valor efetivamente devido em razão de erro de digitação, omissão de despesa, alteração posterior de itens ou qualquer outra causa imputável a você;
 - **Disputas entre você e seus participantes** sobre pagamentos, valores devidos, cobranças ou ressarcimentos — o Zplit não atua como mediador, intermediário ou árbitro dessas relações;
@@ -117,16 +117,16 @@ Em caso de **mudanças materiais** — por exemplo, alteração de cláusula de 
 
 Estes Termos são regidos pelas **leis da República Federativa do Brasil**, em especial pelo **Marco Civil da Internet (Lei nº 12.965/2014)**, pelo **Código de Defesa do Consumidor (Lei nº 8.078/1990)**, quando aplicável, e pela **Lei Geral de Proteção de Dados (Lei nº 13.709/2018)**.
 
-Fica eleito o **foro da Comarca de <<CIDADE_UF>>** como competente para dirimir quaisquer controvérsias decorrentes destes Termos ou do uso do Zplit, com **renúncia expressa a qualquer outro foro**, por mais privilegiado que seja, ressalvadas as hipóteses de competência absoluta previstas em lei (em especial o foro do domicílio do consumidor, quando aplicável o Código de Defesa do Consumidor).
+Fica eleito o **foro da Comarca de Blumenau/SC** como competente para dirimir quaisquer controvérsias decorrentes destes Termos ou do uso do Zplit, com **renúncia expressa a qualquer outro foro**, por mais privilegiado que seja, ressalvadas as hipóteses de competência absoluta previstas em lei (em especial o foro do domicílio do consumidor, quando aplicável o Código de Defesa do Consumidor).
 
 ## §13 Contato
 
 Para qualquer dúvida sobre estes Termos de Uso, comunicação de violação, denúncia de uso indevido ou qualquer outro assunto relativo ao serviço, entre em contato pelo e-mail:
 
-**<<EMAIL_SUPORTE>>**
+**zplit.team@gmail.com**
 
 Responderemos em prazo razoável, e em até **15 dias** corridos para solicitações que envolvam direitos do titular de dados pessoais (LGPD Art. 18).
 
 ---
 
-**Última atualização:** <<DATA_PUBLICACAO>>
+**Última atualização:** 06/05/2026
