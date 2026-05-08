@@ -1,6 +1,6 @@
 # Privacy Policy — Zplit
 
-**Last updated:** <<DATA_PUBLICACAO>>
+**Last updated:** 06/05/2026
 
 > The Portuguese version is the legally binding text. This English translation is provided for convenience. See [/pt/privacidade](../pt/privacidade).
 
@@ -8,9 +8,9 @@
 
 ## §1 About us
 
-Zplit (`<<NOME_FANTASIA>>`) is an application developed and operated by **<<RAZAO_SOCIAL>>**, a Brazilian company registered under CNPJ no. **<<CNPJ>>**, headquartered in **<<CIDADE_UF>>**, Brazil. For any matter related to this Privacy Policy or the processing of your personal data, the official contact channel is the email **<<EMAIL_SUPORTE>>**.
+Zplit is an application developed and operated by **55.936.782 LUCAS SCHMIDT**, a Brazilian company registered under CNPJ no. **55.936.782/0001-67**, headquartered in **Blumenau/SC**, Brazil. For any matter related to this Privacy Policy or the processing of your personal data, the official contact channel is the email **zplit.team@gmail.com**.
 
-Under the terms of **Brazilian Resolução CD/ANPD nº 2/2022**, Zplit operates as a **small-scale data processing agent**. For this reason, **we have not appointed a formal Data Protection Officer (DPO)**; the email **<<EMAIL_SUPORTE>>** is the official communication channel with data subjects and with the Brazilian National Data Protection Authority (ANPD), as permitted by the simplified regime.
+Under the terms of **Brazilian Resolução CD/ANPD nº 2/2022**, Zplit operates as a **small-scale data processing agent**. For this reason, **we have not appointed a formal Data Protection Officer (DPO)**; the email **zplit.team@gmail.com** is the official communication channel with data subjects and with the Brazilian National Data Protection Authority (ANPD), as permitted by the simplified regime.
 
 ## §2 Scope
 
@@ -88,7 +88,7 @@ About WhatsApp: Zplit **never sends messages on your behalf**. When you tap "Sen
 
 ## §6 Where your data is stored
 
-Your data is stored on the **Supabase** infrastructure, in the **<<SUPABASE_REGION>>** region. Receipt images are processed during parsing by **Google (Gemini API)**, whose infrastructure is located in the **United States**.
+Your data is stored on the **Supabase** infrastructure, in the **us-east-1** region. Receipt images are processed during parsing by **Google (Gemini API)**, whose infrastructure is located in the **United States**.
 
 Because international data transfers occur, we adopt the **Standard Contractual Clauses (SCCs)** included in the **Supabase Data Processing Addendum (DPA)** as the transfer safeguard. We rely on these SCCs for both LGPD purposes (Art. 33, international transfer based on specific contractual safeguards) and GDPR purposes (Chapter V, Articles 44-46), in line with international data-protection best practices.
 
@@ -115,7 +115,7 @@ Under **Brazilian LGPD Art. 18**, you have the following rights regarding your p
 
 **If you are an EU/EEA resident**, in addition to the rights above, you have the rights granted by the EU General Data Protection Regulation (GDPR), including the right to access, rectify, erase, restrict, port and object to the processing of your data. **You also have the right to lodge a complaint with the data protection supervisory authority in your country of residence** if you believe our processing of your data does not comply with applicable law.
 
-**How to exercise:** send an email to **<<EMAIL_SUPORTE>>**. We respond within **15 calendar days**. For **account deletion**, you can also use the self-service flow at **Profile → Delete account**, which executes the deletion immediately without waiting for our reply.
+**How to exercise:** send an email to **zplit.team@gmail.com**. We respond within **15 calendar days**. For **account deletion**, you can also use the self-service flow at **Profile → Delete account**, which executes the deletion immediately without waiting for our reply.
 
 There is no cost for exercising your rights.
 
@@ -125,7 +125,7 @@ Zplit **has no minimum-age restriction** for access. Users under 18 may use the 
 
 The **processing of personal data of children (under 12 years of age)** is performed **only with the specific and prominent consent** of at least one of the parents or legal guardians, in accordance with **LGPD Art. 14**. We do not condition a child's participation in the app on the provision of data beyond what is strictly necessary.
 
-Parents or legal guardians may, at any time, request the **deletion of the data** of the child or adolescent in their care by emailing **<<EMAIL_SUPORTE>>**. Requests are addressed within 15 days.
+Parents or legal guardians may, at any time, request the **deletion of the data** of the child or adolescent in their care by emailing **zplit.team@gmail.com**. Requests are addressed within 15 days.
 
 ## §10 Security
 
@@ -155,8 +155,8 @@ In case of **material changes** (for example, a new sub-processor, a new process
 
 For any question about this Policy, exercise of data-subject rights, incident report, or any other matter related to personal data, please contact us at:
 
-**<<EMAIL_SUPORTE>>**
+**zplit.team@gmail.com**
 
 ---
 
-**Last updated:** <<DATA_PUBLICACAO>>
+**Last updated:** 06/05/2026
