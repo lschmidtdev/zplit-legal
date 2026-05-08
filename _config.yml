@@ -1,0 +1,7 @@
+  title: Zplit — Documentos legais
+  description: Política de Privacidade e Termos de Uso do Zplit
+  theme: jekyll-theme-cayman
+  markdown: kramdown
+  permalink: pretty
+  exclude:
+    - README.md
