@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redefinir senha — Zplit</title>
+  <link rel="stylesheet" href="../auth.css" />
+</head>
+<body class="auth-bg">
+  <main class="auth-card">
+    <img src="../zplit-mark.svg" alt="Zplit" class="auth-logo" />
+    <h1>Redefinir senha</h1>
+
+    <section id="stage-deeplink">
+      <p>Abrindo o app Zplit…</p>
+      <a id="open-app-btn" class="btn-primary" href="#">Abrir o Zplit</a>
+    </section>
+
+    <section id="stage-web" hidden>
+      <p>Não foi possível abrir o app. Defina sua nova senha aqui:</p>
+      <form id="reset-form">
+        <label>Nova senha
+          <input type="password" name="password" minlength="8" required />
+        </label>
+        <label>Confirmar senha
+          <input type="password" name="confirm" minlength="8" required />
+        </label>
+        <button type="submit" class="btn-primary">Salvar</button>
+      </form>
+      <p id="form-msg" class="msg" role="status"></p>
+    </section>
+  </main>
+
+  <script type="module">
+    import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
+
+    // Public publishable key — safe to expose, RLS protects data.
+    const SUPABASE_URL = 'https://glnhnzmwiywnzqqpkygu.supabase.co'
+    const SUPABASE_ANON_KEY = 'sb_publishable_FZwTYbXKg0z4S0GBzDV4ag_nM8JQ3qM'
+
+    const sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+      auth: { detectSessionInUrl: true, flowType: 'implicit' }
+    })
+
+    const hash = window.location.hash || ''
+    const deepLink = 'io.supabase.appchurras://login-callback/' + hash
+    document.getElementById('open-app-btn').href = deepLink
+
+    let switched = false
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) switched = true
+    })
+    window.location.href = deepLink
+    setTimeout(() => {
+      if (!switched) {
+        document.getElementById('stage-deeplink').hidden = true
+        document.getElementById('stage-web').hidden = false
+      }
+    }, 1500)
+
+    const form = document.getElementById('reset-form')
+    const msg = document.getElementById('form-msg')
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault()
+      const fd = new FormData(form)
+      const password = fd.get('password')
+      const confirm = fd.get('confirm')
+      if (password !== confirm) {
+        msg.textContent = 'As senhas não coincidem.'
+        msg.className = 'msg msg-error'
+        return
+      }
+      msg.textContent = 'Salvando…'
+      msg.className = 'msg'
+      const { error } = await sb.auth.updateUser({ password })
+      if (error) {
+        msg.textContent = 'Não foi possível salvar. O link pode ter expirado.'
+        msg.className = 'msg msg-error'
+        return
+      }
+      msg.textContent = 'Senha alterada. Você já pode voltar ao app.'
+      msg.className = 'msg msg-success'
+      form.reset()
+      form.querySelector('button').disabled = true
+    })
+  </script>
+</body>
+</html>
