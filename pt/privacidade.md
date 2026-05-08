@@ -1,6 +1,6 @@
 # Política de Privacidade — Zplit
 
-**Última atualização:** <<DATA_PUBLICACAO>>
+**Última atualização:** 06/05/2026
 
 > A versão em português é a juridicamente vinculante. Uma tradução em inglês está disponível em [/en/privacy](../en/privacy) para conveniência.
 
@@ -8,9 +8,9 @@
 
 ## §1 Quem somos
 
-O Zplit (`<<NOME_FANTASIA>>`) é um aplicativo desenvolvido e operado por **<<RAZAO_SOCIAL>>**, inscrita no CNPJ sob o nº **<<CNPJ>>**, com sede em **<<CIDADE_UF>>**, Brasil. Para qualquer assunto relativo a esta Política de Privacidade ou ao tratamento dos seus dados pessoais, o canal oficial de contato é o e-mail **<<EMAIL_SUPORTE>>**.
+O Zplit é um aplicativo desenvolvido e operado por **55.936.782 LUCAS SCHMIDT**, inscrita no CNPJ sob o nº **55.936.782/0001-67**, com sede em **Blumenau/SC**, Brasil. Para qualquer assunto relativo a esta Política de Privacidade ou ao tratamento dos seus dados pessoais, o canal oficial de contato é o e-mail **zplit.team@gmail.com**.
 
-Nos termos da **Resolução CD/ANPD nº 2/2022**, o Zplit opera como **agente de tratamento de pequeno porte**. Por essa razão, **não nomeamos um Encarregado (DPO) formal**; o canal **<<EMAIL_SUPORTE>>** é o canal oficial de comunicação com os titulares de dados e com a Autoridade Nacional de Proteção de Dados (ANPD), conforme permitido pelo regime simplificado.
+Nos termos da **Resolução CD/ANPD nº 2/2022**, o Zplit opera como **agente de tratamento de pequeno porte**. Por essa razão, **não nomeamos um Encarregado (DPO) formal**; o canal **zplit.team@gmail.com** é o canal oficial de comunicação com os titulares de dados e com a Autoridade Nacional de Proteção de Dados (ANPD), conforme permitido pelo regime simplificado.
 
 ## §2 O que esta política cobre
 
@@ -88,7 +88,7 @@ Sobre o WhatsApp: o Zplit **nunca envia mensagens em seu nome**. Quando você to
 
 ## §6 Onde seus dados são armazenados
 
-Seus dados são armazenados na infraestrutura do **Supabase**, na região **<<SUPABASE_REGION>>**. Imagens de cupom fiscal, durante o processamento, são tratadas pela **Google (API Gemini)**, com infraestrutura nos **Estados Unidos**.
+Seus dados são armazenados na infraestrutura do **Supabase**, na região **us-east-1**. Imagens de cupom fiscal, durante o processamento, são tratadas pela **Google (API Gemini)**, com infraestrutura nos **Estados Unidos**.
 
 Como há transferência internacional de dados, adotamos como salvaguarda as **Cláusulas Contratuais Padrão (Standard Contractual Clauses)** previstas no **Data Processing Addendum (DPA) do Supabase**, em consonância com a LGPD Art. 33 (transferência internacional baseada em garantias contratuais específicas) e com as boas práticas internacionais de proteção de dados.
 
@@ -113,7 +113,7 @@ Conforme a **LGPD Art. 18**, você tem os seguintes direitos sobre os seus dados
 8. **Informação** sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa;
 9. **Revogação do consentimento**, a qualquer momento.
 
-**Como exercer:** envie um e-mail para **<<EMAIL_SUPORTE>>**. Responderemos em **até 15 dias** corridos. Para a **exclusão de conta**, você também pode usar o self-service em **Perfil → Excluir conta**, que executa a exclusão imediatamente sem necessidade de aguardar resposta.
+**Como exercer:** envie um e-mail para **zplit.team@gmail.com**. Responderemos em **até 15 dias** corridos. Para a **exclusão de conta**, você também pode usar o self-service em **Perfil → Excluir conta**, que executa a exclusão imediatamente sem necessidade de aguardar resposta.
 
 Não há custo para o exercício dos seus direitos.
 
@@ -123,7 +123,7 @@ O Zplit **não tem restrição etária** de acesso. Menores de 18 anos podem usa
 
 O **tratamento de dados pessoais de crianças (menores de 12 anos)** é realizado **somente com o consentimento específico e em destaque** de pelo menos um dos pais ou responsável legal, conforme **LGPD Art. 14**. Não condicionamos a participação da criança no aplicativo ao fornecimento de dados além dos estritamente necessários.
 
-Os pais ou responsáveis podem solicitar, a qualquer momento, a **exclusão dos dados** da criança ou adolescente sob sua responsabilidade enviando e-mail para **<<EMAIL_SUPORTE>>**. A solicitação é atendida em até 15 dias.
+Os pais ou responsáveis podem solicitar, a qualquer momento, a **exclusão dos dados** da criança ou adolescente sob sua responsabilidade enviando e-mail para **zplit.team@gmail.com**. A solicitação é atendida em até 15 dias.
 
 ## §10 Segurança
 
@@ -153,8 +153,8 @@ Em caso de **mudanças materiais** (por exemplo, novo subprocessador, nova final
 
 Para qualquer dúvida sobre esta Política, exercício de direitos do titular, denúncia de incidente ou qualquer outro assunto relativo a dados pessoais, entre em contato pelo e-mail:
 
-**<<EMAIL_SUPORTE>>**
+**zplit.team@gmail.com**
 
 ---
 
-**Última atualização:** <<DATA_PUBLICACAO>>
+**Última atualização:** 06/05/2026
