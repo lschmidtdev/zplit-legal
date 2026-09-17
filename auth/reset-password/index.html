@@ -5,21 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
   <meta name="robots" content="noindex" />
-  <title>Redefinir senha — Zplit</title>
+  <title>Redefinir senha — Zsplit</title>
   <link rel="stylesheet" href="../auth.css" />
 </head>
 <body class="auth-bg">
   <main class="auth-card">
-    <img src="../zplit-mark.svg" alt="Zplit" class="auth-logo" />
+    <img src="../zsplit-mark.svg" alt="Zsplit" class="auth-logo" />
     <h1>Redefinir senha</h1>
 
     <section id="stage-invalid" hidden>
-      <p>Este link é inválido ou já expirou. Peça um novo em "Esqueci minha senha" no app Zplit.</p>
+      <p>Este link é inválido ou já expirou. Peça um novo em "Esqueci minha senha" no app Zsplit.</p>
     </section>
 
     <section id="stage-app" hidden>
       <p>Está no celular em que pediu a redefinição? Continue pelo app:</p>
-      <a id="open-app-btn" class="btn-primary" href="#">Abrir no app Zplit</a>
+      <a id="open-app-btn" class="btn-primary" href="#">Abrir no app Zsplit</a>
       <p>Ou defina a nova senha aqui mesmo:</p>
     </section>
 
@@ -69,11 +69,11 @@
 
     const MESSAGES = {
       saving: 'Salvando…',
-      success: 'Senha alterada. Agora é só entrar no app Zplit com a nova senha.',
+      success: 'Senha alterada. Agora é só entrar no app Zsplit com a nova senha.',
       mismatch: 'As senhas não coincidem.',
       too_short: `A senha precisa ter pelo menos ${MIN_PASSWORD_LENGTH} caracteres.`,
       too_long: 'A senha é longa demais.',
-      expired: 'Este link expirou ou já foi usado. Peça um novo em "Esqueci minha senha" no app Zplit.',
+      expired: 'Este link expirou ou já foi usado. Peça um novo em "Esqueci minha senha" no app Zsplit.',
       same_password: 'A nova senha precisa ser diferente da atual.',
       weak_password: 'Essa senha é fraca demais. Escolha outra.',
       rate_limited: 'Muitas tentativas. Aguarde alguns minutos e tente de novo.',

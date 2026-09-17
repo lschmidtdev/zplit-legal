@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
   <meta name="robots" content="noindex" />
-  <title>Confirmação de email — Zplit</title>
+  <title>Confirmação de email — Zsplit</title>
   <link rel="stylesheet" href="../auth.css" />
 </head>
 <body class="auth-bg">
   <main class="auth-card">
-    <img src="../zplit-mark.svg" alt="Zplit" class="auth-logo" />
+    <img src="../zsplit-mark.svg" alt="Zsplit" class="auth-logo" />
     <h1 id="title">Confirmação de email</h1>
     <p id="status" class="msg" role="status"></p>
-    <a id="open-app-btn" class="btn-primary" href="io.supabase.appchurras://login-callback/" hidden>Abrir o Zplit</a>
+    <a id="open-app-btn" class="btn-primary" href="io.supabase.appchurras://login-callback/" hidden>Abrir o Zsplit</a>
   </main>
 
   <script>
@@ -31,7 +31,7 @@
     const STATES = {
       confirmed: {
         title: 'Email confirmado',
-        text: 'Seu endereço de email foi atualizado. Você já pode voltar ao app Zplit.',
+        text: 'Seu endereço de email foi atualizado. Você já pode voltar ao app Zsplit.',
         showButton: true,
       },
       pending: {
@@ -41,12 +41,12 @@
       },
       error: {
         title: 'Link inválido',
-        text: 'Este link expirou ou já foi usado. Peça a alteração de email de novo no app Zplit.',
+        text: 'Este link expirou ou já foi usado. Peça a alteração de email de novo no app Zsplit.',
         showButton: false,
       },
       unknown: {
         title: 'Confirmação de email',
-        text: 'Se você confirmou pelo link do email, já pode voltar ao app Zplit.',
+        text: 'Se você confirmou pelo link do email, já pode voltar ao app Zsplit.',
         showButton: true,
       },
     }

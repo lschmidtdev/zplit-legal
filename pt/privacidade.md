@@ -1,4 +1,4 @@
-# Política de Privacidade — Zplit
+# Política de Privacidade — Zsplit
 
 **Última atualização:** 17/09/2026
 
@@ -8,20 +8,20 @@
 
 ## §1 Quem somos
 
-O Zplit é um aplicativo desenvolvido e operado por **55.936.782 LUCAS SCHMIDT**, inscrita no CNPJ sob o nº **55.936.782/0001-67**, com sede em **Blumenau/SC**, Brasil. Para qualquer assunto relativo a esta Política de Privacidade ou ao tratamento dos seus dados pessoais, o canal oficial de contato é o e-mail **zplit.team@gmail.com**.
+O Zsplit é um aplicativo desenvolvido e operado por **55.936.782 LUCAS SCHMIDT**, inscrita no CNPJ sob o nº **55.936.782/0001-67**, com sede em **Blumenau/SC**, Brasil. Para qualquer assunto relativo a esta Política de Privacidade ou ao tratamento dos seus dados pessoais, o canal oficial de contato é o e-mail **zplit.team@gmail.com**.
 
-Nos termos da **Resolução CD/ANPD nº 2/2022**, o Zplit opera como **agente de tratamento de pequeno porte**. Por essa razão, **não nomeamos um Encarregado (DPO) formal**; o canal **zplit.team@gmail.com** é o canal oficial de comunicação com os titulares de dados e com a Autoridade Nacional de Proteção de Dados (ANPD), conforme permitido pelo regime simplificado.
+Nos termos da **Resolução CD/ANPD nº 2/2022**, o Zsplit opera como **agente de tratamento de pequeno porte**. Por essa razão, **não nomeamos um Encarregado (DPO) formal**; o canal **zplit.team@gmail.com** é o canal oficial de comunicação com os titulares de dados e com a Autoridade Nacional de Proteção de Dados (ANPD), conforme permitido pelo regime simplificado.
 
 ## §2 O que esta política cobre
 
-Esta Política de Privacidade descreve como tratamos seus dados pessoais quando você usa o **aplicativo Zplit** (Android, iOS e Windows) e os serviços associados, que incluem:
+Esta Política de Privacidade descreve como tratamos seus dados pessoais quando você usa o **aplicativo Zsplit** (Android, iOS e Windows) e os serviços associados, que incluem:
 
 - O **backend hospedado no Supabase** (autenticação, banco de dados, RPCs);
 - O fluxo de **importação de itens de cupom fiscal** via inteligência artificial;
 - A **compra de créditos de importação** dentro do aplicativo, pela Google Play ou pela App Store;
 - O **envio de e-mails transacionais** (confirmação de cadastro, recuperação de senha e alteração de e-mail).
 
-Esta política aplica-se a todos os usuários do Zplit, independentemente do dispositivo ou do idioma do aplicativo.
+Esta política aplica-se a todos os usuários do Zsplit, independentemente do dispositivo ou do idioma do aplicativo.
 
 ## §3 Dados que coletamos
 
@@ -38,8 +38,8 @@ Coletamos somente os dados estritamente necessários para que o aplicativo funci
 Quando você adiciona participantes a um evento, coletamos os **nomes e telefones** que você nos informa. Esses dados pertencem a terceiros (os seus participantes), e a relação jurídica é a seguinte:
 
 - **Você é o controlador desses dados perante a LGPD.** É você quem decide quais participantes adicionar, quais dados informar e para qual finalidade.
-- **O Zplit atua como operador**, processando esses dados estritamente conforme as suas instruções (armazenar, calcular divisões de despesa, gerar mensagens de cobrança via WhatsApp).
-- **Você é responsável** por obter o consentimento dos participantes antes de adicioná-los, bem como por informar a eles que os dados estão sendo tratados pelo Zplit em seu nome.
+- **O Zsplit atua como operador**, processando esses dados estritamente conforme as suas instruções (armazenar, calcular divisões de despesa, gerar mensagens de cobrança via WhatsApp).
+- **Você é responsável** por obter o consentimento dos participantes antes de adicioná-los, bem como por informar a eles que os dados estão sendo tratados pelo Zsplit em seu nome.
 
 Recomendamos não adicionar participantes sem que eles estejam cientes.
 
@@ -54,7 +54,7 @@ Quando você usa a função de **importar itens via cupom fiscal**, a imagem é 
 
 ### 3.d Compras e créditos de importação
 
-A importação via cupom fiscal consome **créditos**. Você recebe créditos gratuitos e pode comprar pacotes adicionais dentro do aplicativo. O pagamento é processado **integralmente pela Google Play** (Android) **ou pela App Store** (iOS): o Zplit **nunca recebe** dados do seu cartão de crédito ou de outro meio de pagamento.
+A importação via cupom fiscal consome **créditos**. Você recebe créditos gratuitos e pode comprar pacotes adicionais dentro do aplicativo. O pagamento é processado **integralmente pela Google Play** (Android) **ou pela App Store** (iOS): o Zsplit **nunca recebe** dados do seu cartão de crédito ou de outro meio de pagamento.
 
 Para validar a compra junto à loja e creditar sua conta, mantemos:
 
@@ -65,7 +65,7 @@ O identificador e o token da compra são usados para confirmar a compra com a lo
 
 ### 3.e O que NÃO coletamos
 
-Para deixar claro o que está fora do escopo do Zplit:
+Para deixar claro o que está fora do escopo do Zsplit:
 
 - **Não usamos analytics de terceiros** (Google Analytics, Firebase Analytics, Mixpanel, Amplitude, etc.).
 - **Não usamos redes de publicidade** (AdMob, Meta Audience, etc.).
@@ -73,7 +73,7 @@ Para deixar claro o que está fora do escopo do Zplit:
 - **Não coletamos dados de localização** (GPS, IP-geolocation, etc.).
 - **Não coletamos dados biométricos** (face, digital, etc.).
 - **Não recebemos dados de cartão de crédito** ou de outros meios de pagamento — compras de créditos são processadas pela Google Play ou pela App Store (ver 3.d).
-- **Não intermediamos pagamentos entre você e seus participantes** — o Zplit apenas calcula valores; as transferências ocorrem fora do aplicativo.
+- **Não intermediamos pagamentos entre você e seus participantes** — o Zsplit apenas calcula valores; as transferências ocorrem fora do aplicativo.
 
 ## §4 Para que usamos seus dados
 
@@ -90,7 +90,7 @@ Não tratamos seus dados para nenhuma finalidade diferente das acima sem antes a
 
 ## §5 Com quem compartilhamos seus dados
 
-O Zplit compartilha dados pessoais somente com os seguintes operadores nomeados, e exclusivamente nas finalidades descritas:
+O Zsplit compartilha dados pessoais somente com os seguintes operadores nomeados, e exclusivamente nas finalidades descritas:
 
 | Terceiro | Papel | Dados compartilhados | Política |
 |---|---|---|---|
@@ -101,9 +101,9 @@ O Zplit compartilha dados pessoais somente com os seguintes operadores nomeados,
 | **Apple Inc. (App Store)** | Processamento do pagamento e validação de compras no iOS | Identificador da transação, para confirmar que a compra é válida | https://www.apple.com/legal/privacy/ |
 | **WhatsApp** (Meta) | Envio de mensagem **iniciado por você** via deep link | Apenas o conteúdo da mensagem que você optar por enviar | https://www.whatsapp.com/legal/privacy-policy |
 
-Sobre as lojas: a compra é realizada **diretamente entre você e a Google Play ou a App Store**, que tratam os dados de pagamento conforme as próprias políticas. O Zplit apenas consulta a loja para confirmar que a compra é válida antes de creditar sua conta.
+Sobre as lojas: a compra é realizada **diretamente entre você e a Google Play ou a App Store**, que tratam os dados de pagamento conforme as próprias políticas. O Zsplit apenas consulta a loja para confirmar que a compra é válida antes de creditar sua conta.
 
-Sobre o WhatsApp: o Zplit **nunca envia mensagens em seu nome**. Quando você toca em "Enviar via WhatsApp", o Zplit apenas **abre o aplicativo de WhatsApp** instalado no seu dispositivo, com a mensagem pré-preenchida. O envio é feito pelo seu próprio aplicativo de WhatsApp, sob suas credenciais e responsabilidade.
+Sobre o WhatsApp: o Zsplit **nunca envia mensagens em seu nome**. Quando você toca em "Enviar via WhatsApp", o Zsplit apenas **abre o aplicativo de WhatsApp** instalado no seu dispositivo, com a mensagem pré-preenchida. O envio é feito pelo seu próprio aplicativo de WhatsApp, sob suas credenciais e responsabilidade.
 
 **Não vendemos seus dados. Não compartilhamos seus dados para fins de publicidade.** Não temos parcerias comerciais nem programas de afiliados que envolvam o repasse de dados pessoais.
 
@@ -118,7 +118,7 @@ Como há transferência internacional de dados, adotamos como salvaguarda as gar
 - **Dados pessoais e dados dos eventos**: mantidos enquanto sua conta estiver ativa.
 - **Ao excluir sua conta** (Perfil → Excluir conta): todos os dados associados (eventos, participantes, despesas, pagamentos entre participantes, saldo de créditos, registros de compra e registros de importação) são apagados **imediatamente em cascata**. A operação é irreversível.
 - **Registro de auditoria de cupom fiscal** (`receipt_imports`): **apagado automaticamente 30 dias após a importação**, por uma rotina diária. Exceção: o registro de uma importação interrompida por falha técnica, cujo crédito ainda não foi estornado, é mantido até o estorno (ver 3.c).
-- **Saldo de créditos e registros de compra** (`receipt_entitlements`, `receipt_purchases`): mantidos enquanto sua conta estiver ativa e apagados com a exclusão da conta. A Google Play e a App Store mantêm os próprios registros da transação, conforme as políticas delas — a exclusão da sua conta no Zplit não os apaga.
+- **Saldo de créditos e registros de compra** (`receipt_entitlements`, `receipt_purchases`): mantidos enquanto sua conta estiver ativa e apagados com a exclusão da conta. A Google Play e a App Store mantêm os próprios registros da transação, conforme as políticas delas — a exclusão da sua conta no Zsplit não os apaga.
 - **Backups**: a infraestrutura do Supabase mantém backups por períodos curtos para fins de continuidade do serviço; após a exclusão da conta, os dados são removidos dos backups conforme a política de retenção do Supabase.
 
 ## §8 Seus direitos como titular
@@ -131,7 +131,7 @@ Conforme a **LGPD Art. 18**, você tem os seguintes direitos sobre os seus dados
 4. **Anonimização, bloqueio ou eliminação** de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD;
 5. **Portabilidade** dos dados a outro fornecedor;
 6. **Eliminação** dos dados pessoais tratados com seu consentimento;
-7. **Informação** sobre as entidades públicas e privadas com as quais o Zplit realizou uso compartilhado dos seus dados;
+7. **Informação** sobre as entidades públicas e privadas com as quais o Zsplit realizou uso compartilhado dos seus dados;
 8. **Informação** sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa;
 9. **Revogação do consentimento**, a qualquer momento.
 
@@ -141,7 +141,7 @@ Não há custo para o exercício dos seus direitos.
 
 ## §9 Crianças e adolescentes
 
-O Zplit **não tem restrição etária** de acesso. Menores de 18 anos podem usar o aplicativo desde que com **consentimento e supervisão dos pais ou responsáveis legais**.
+O Zsplit **não tem restrição etária** de acesso. Menores de 18 anos podem usar o aplicativo desde que com **consentimento e supervisão dos pais ou responsáveis legais**.
 
 O **tratamento de dados pessoais de crianças (menores de 12 anos)** é realizado **somente com o consentimento específico e em destaque** de pelo menos um dos pais ou responsável legal, conforme **LGPD Art. 14**. Não condicionamos a participação da criança no aplicativo ao fornecimento de dados além dos estritamente necessários.
 
@@ -161,7 +161,7 @@ Nenhum sistema é absolutamente seguro. Em caso de **incidente de segurança que
 
 ## §11 Cookies, analytics e publicidade
 
-**Atualmente, não utilizamos cookies, ferramentas de análise (analytics) de terceiros, ou redes de publicidade.** O aplicativo Zplit não integra Google Analytics, Firebase Analytics, Mixpanel, Amplitude, AdMob, Meta Audience Network, Sentry, Crashlytics, ou qualquer outra ferramenta similar.
+**Atualmente, não utilizamos cookies, ferramentas de análise (analytics) de terceiros, ou redes de publicidade.** O aplicativo Zsplit não integra Google Analytics, Firebase Analytics, Mixpanel, Amplitude, AdMob, Meta Audience Network, Sentry, Crashlytics, ou qualquer outra ferramenta similar.
 
 Caso passemos a utilizar qualquer dessas tecnologias no futuro, **atualizaremos esta Política de Privacidade e notificaremos os usuários no aplicativo antes da implementação**, com tempo razoável para que você possa avaliar e, se preferir, encerrar a sua conta.
 

@@ -1,4 +1,4 @@
-# Privacy Policy — Zplit
+# Privacy Policy — Zsplit
 
 **Last updated:** 17/09/2026
 
@@ -8,20 +8,20 @@
 
 ## §1 About us
 
-Zplit is an application developed and operated by **55.936.782 LUCAS SCHMIDT**, a Brazilian company registered under CNPJ no. **55.936.782/0001-67**, headquartered in **Blumenau/SC**, Brazil. For any matter related to this Privacy Policy or the processing of your personal data, the official contact channel is the email **zplit.team@gmail.com**.
+Zsplit is an application developed and operated by **55.936.782 LUCAS SCHMIDT**, a Brazilian company registered under CNPJ no. **55.936.782/0001-67**, headquartered in **Blumenau/SC**, Brazil. For any matter related to this Privacy Policy or the processing of your personal data, the official contact channel is the email **zplit.team@gmail.com**.
 
-Under the terms of **Brazilian Resolução CD/ANPD nº 2/2022**, Zplit operates as a **small-scale data processing agent**. For this reason, **we have not appointed a formal Data Protection Officer (DPO)**; the email **zplit.team@gmail.com** is the official communication channel with data subjects and with the Brazilian National Data Protection Authority (ANPD), as permitted by the simplified regime.
+Under the terms of **Brazilian Resolução CD/ANPD nº 2/2022**, Zsplit operates as a **small-scale data processing agent**. For this reason, **we have not appointed a formal Data Protection Officer (DPO)**; the email **zplit.team@gmail.com** is the official communication channel with data subjects and with the Brazilian National Data Protection Authority (ANPD), as permitted by the simplified regime.
 
 ## §2 Scope
 
-This Privacy Policy describes how we process your personal data when you use the **Zplit application** (Android, iOS and Windows) and its associated services, which include:
+This Privacy Policy describes how we process your personal data when you use the **Zsplit application** (Android, iOS and Windows) and its associated services, which include:
 
 - The **Supabase-hosted backend** (authentication, database, RPCs);
 - The **receipt-import flow** powered by artificial intelligence;
 - **In-app purchases of import credits**, through Google Play or the App Store;
 - **Transactional emails** (sign-up confirmation, password recovery and email change).
 
-This policy applies to all Zplit users, regardless of device or app language.
+This policy applies to all Zsplit users, regardless of device or app language.
 
 ## §3 Data we collect
 
@@ -35,11 +35,11 @@ We collect only the data strictly necessary for the application to function. We 
 
 ### 3.b Data about your participants (third parties)
 
-When you add participants to an event, you provide their names and phone numbers. **You are the controller of that third-party data under Brazilian LGPD / EU GDPR; Zplit acts as the processor (operator)**, processing it on your instructions. The legal relationship is as follows:
+When you add participants to an event, you provide their names and phone numbers. **You are the controller of that third-party data under Brazilian LGPD / EU GDPR; Zsplit acts as the processor (operator)**, processing it on your instructions. The legal relationship is as follows:
 
 - **You are the controller of that data.** You decide which participants to add, what data to provide, and for what purpose.
-- **Zplit acts as the processor (operator)**, handling that data strictly according to your instructions (storing it, calculating expense splits, generating reminder messages via WhatsApp).
-- **You are responsible** for obtaining each participant's consent before adding them, as well as for informing them that the data is being processed by Zplit on your behalf.
+- **Zsplit acts as the processor (operator)**, handling that data strictly according to your instructions (storing it, calculating expense splits, generating reminder messages via WhatsApp).
+- **You are responsible** for obtaining each participant's consent before adding them, as well as for informing them that the data is being processed by Zsplit on your behalf.
 
 We recommend not adding participants without their knowledge.
 
@@ -54,7 +54,7 @@ When you use the **import items from a receipt** feature, the image is sent to *
 
 ### 3.d Purchases and import credits
 
-Importing from a receipt uses **credits**. You receive free credits and can buy additional packs inside the app. Payment is processed **entirely by Google Play** (Android) **or the App Store** (iOS): Zplit **never receives** your credit card or other payment-method details.
+Importing from a receipt uses **credits**. You receive free credits and can buy additional packs inside the app. Payment is processed **entirely by Google Play** (Android) **or the App Store** (iOS): Zsplit **never receives** your credit card or other payment-method details.
 
 To validate the purchase with the store and credit your account, we keep:
 
@@ -65,7 +65,7 @@ The purchase identifier and token are used to confirm the purchase with the stor
 
 ### 3.e What we do NOT collect
 
-To make clear what is out of scope for Zplit:
+To make clear what is out of scope for Zsplit:
 
 - **We do not use third-party analytics** (Google Analytics, Firebase Analytics, Mixpanel, Amplitude, etc.).
 - **We do not use advertising networks** (AdMob, Meta Audience Network, etc.).
@@ -73,7 +73,7 @@ To make clear what is out of scope for Zplit:
 - **We do not collect location data** (GPS, IP-geolocation, etc.).
 - **We do not collect biometric data** (face, fingerprint, etc.).
 - **We do not receive credit card** or other payment-method details — credit purchases are processed by Google Play or the App Store (see 3.d).
-- **We do not intermediate payments between you and your participants** — Zplit only calculates amounts; transfers happen outside the app.
+- **We do not intermediate payments between you and your participants** — Zsplit only calculates amounts; transfers happen outside the app.
 
 ## §4 How we use your data
 
@@ -90,7 +90,7 @@ We do not process your data for any purpose other than those above without first
 
 ## §5 With whom we share your data
 
-Zplit shares personal data only with the following named processors, and exclusively for the purposes described:
+Zsplit shares personal data only with the following named processors, and exclusively for the purposes described:
 
 | Third party | Role | Data shared | Policy |
 |---|---|---|---|
@@ -101,9 +101,9 @@ Zplit shares personal data only with the following named processors, and exclusi
 | **Apple Inc. (App Store)** | Payment processing and purchase validation on iOS | Transaction identifier, to confirm the purchase is valid | https://www.apple.com/legal/privacy/ |
 | **WhatsApp** (Meta) | Sending a message **initiated by you** via deep link | Only the content of the message you choose to send | https://www.whatsapp.com/legal/privacy-policy |
 
-About the stores: the purchase is made **directly between you and Google Play or the App Store**, which handle payment data under their own policies. Zplit only queries the store to confirm the purchase is valid before crediting your account.
+About the stores: the purchase is made **directly between you and Google Play or the App Store**, which handle payment data under their own policies. Zsplit only queries the store to confirm the purchase is valid before crediting your account.
 
-About WhatsApp: Zplit **never sends messages on your behalf**. When you tap "Send via WhatsApp", Zplit only **opens the WhatsApp app** installed on your device with the message pre-filled. The sending is performed by your own WhatsApp app, under your credentials and your responsibility.
+About WhatsApp: Zsplit **never sends messages on your behalf**. When you tap "Send via WhatsApp", Zsplit only **opens the WhatsApp app** installed on your device with the message pre-filled. The sending is performed by your own WhatsApp app, under your credentials and your responsibility.
 
 **We do not sell your data. We do not share your data for advertising purposes.** We have no commercial partnerships or affiliate programs that involve the transfer of personal data.
 
@@ -118,7 +118,7 @@ Because international data transfers occur, we adopt the contractual safeguards 
 - **Personal data and event data**: kept while your account is active.
 - **Upon deletion of your account** (Profile → Delete account): all associated data (events, participants, expenses, payments between participants, credit balance, purchase records and import records) is deleted **immediately and in cascade**. The operation is irreversible.
 - **Receipt-import audit log** (`receipt_imports`): **automatically deleted 30 days after the import**, by a daily routine. Exception: the record of an import interrupted by a technical failure, whose credit has not yet been refunded, is kept until the refund (see 3.c).
-- **Credit balance and purchase records** (`receipt_entitlements`, `receipt_purchases`): kept while your account is active and deleted when the account is deleted. Google Play and the App Store keep their own transaction records under their own policies — deleting your Zplit account does not delete them.
+- **Credit balance and purchase records** (`receipt_entitlements`, `receipt_purchases`): kept while your account is active and deleted when the account is deleted. Google Play and the App Store keep their own transaction records under their own policies — deleting your Zsplit account does not delete them.
 - **Backups**: the Supabase infrastructure keeps short-term backups for service-continuity purposes; after account deletion, data is removed from backups according to the Supabase retention policy.
 
 ## §8 Your rights
@@ -131,7 +131,7 @@ Under **Brazilian LGPD Art. 18**, you have the following rights regarding your p
 4. **Anonymization, blocking or deletion** of unnecessary, excessive or non-compliant data;
 5. **Portability** of your data to another provider;
 6. **Deletion** of personal data processed with your consent;
-7. **Information** about the public and private entities with which Zplit has shared your data;
+7. **Information** about the public and private entities with which Zsplit has shared your data;
 8. **Information** about the possibility of withholding consent and the consequences of doing so;
 9. **Withdrawal of consent**, at any time.
 
@@ -143,7 +143,7 @@ There is no cost for exercising your rights.
 
 ## §9 Children
 
-Zplit **has no minimum-age restriction** for access. Users under 18 may use the application provided that they have the **consent and supervision of their parents or legal guardians**.
+Zsplit **has no minimum-age restriction** for access. Users under 18 may use the application provided that they have the **consent and supervision of their parents or legal guardians**.
 
 The **processing of personal data of children (under 12 years of age)** is performed **only with the specific and prominent consent** of at least one of the parents or legal guardians, in accordance with **LGPD Art. 14**. We do not condition a child's participation in the app on the provision of data beyond what is strictly necessary.
 
@@ -163,7 +163,7 @@ No system is absolutely secure. In the event of a **security incident that may p
 
 ## §11 Cookies, analytics and advertising
 
-**We currently do not use cookies, third-party analytics, or advertising networks.** The Zplit application does not integrate Google Analytics, Firebase Analytics, Mixpanel, Amplitude, AdMob, Meta Audience Network, Sentry, Crashlytics, or any similar tool.
+**We currently do not use cookies, third-party analytics, or advertising networks.** The Zsplit application does not integrate Google Analytics, Firebase Analytics, Mixpanel, Amplitude, AdMob, Meta Audience Network, Sentry, Crashlytics, or any similar tool.
 
 If we begin to use any of these technologies in the future, we will update this Privacy Policy and notify users in the app before deployment, with reasonable time for you to review and, if you prefer, close your account.
 
