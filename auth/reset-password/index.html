@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="robots" content="noindex" />
   <title>Redefinir senha — Zplit</title>
   <link rel="stylesheet" href="../auth.css" />
 </head>
@@ -11,19 +13,23 @@
     <img src="../zplit-mark.svg" alt="Zplit" class="auth-logo" />
     <h1>Redefinir senha</h1>
 
-    <section id="stage-deeplink">
-      <p>Abrindo o app Zplit…</p>
-      <a id="open-app-btn" class="btn-primary" href="#">Abrir o Zplit</a>
+    <section id="stage-invalid" hidden>
+      <p>Este link é inválido ou já expirou. Peça um novo em "Esqueci minha senha" no app Zplit.</p>
     </section>
 
-    <section id="stage-web" hidden>
-      <p>Não foi possível abrir o app. Defina sua nova senha aqui:</p>
+    <section id="stage-app" hidden>
+      <p>Está no celular em que pediu a redefinição? Continue pelo app:</p>
+      <a id="open-app-btn" class="btn-primary" href="#">Abrir no app Zplit</a>
+      <p>Ou defina a nova senha aqui mesmo:</p>
+    </section>
+
+    <section id="stage-form" hidden>
       <form id="reset-form">
         <label>Nova senha
-          <input type="password" name="password" minlength="8" required />
+          <input type="password" name="password" autocomplete="new-password" required />
         </label>
         <label>Confirmar senha
-          <input type="password" name="confirm" minlength="8" required />
+          <input type="password" name="confirm" autocomplete="new-password" required />
         </label>
         <button type="submit" class="btn-primary">Salvar</button>
       </form>
@@ -32,56 +38,147 @@
   </main>
 
   <script type="module">
-    import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
+    // How this page works (and why it is not a supabase-js page any more):
+    //
+    // The app requests the reset with PKCE, so Supabase's default email link
+    // ({{ .ConfirmationURL }}) ends in `?code=`, which only the app install
+    // that asked for the reset can exchange. No web page can. The "Reset
+    // Password" email template therefore links here instead:
+    //
+    //   {{ .RedirectTo }}#token_hash={{ .TokenHash }}&type=recovery
+    //
+    // and the user picks ONE way to spend that single-use token:
+    //   - Form (any device): POST /verify with the token_hash returns a
+    //     session, PUT /user sets the password, logout ends that session.
+    //   - App button (phones): GET /verify turns the token into a PKCE `?code=`
+    //     and redirects to the app, which holds the code_verifier. A hostile
+    //     app claiming the same URL scheme receives a code it cannot use.
+    //     Forwarding the token_hash itself to the scheme would hand that app a
+    //     working credential, so this page never does.
+    //
+    // Nothing is spent on page load: link scanners and previews that open the
+    // URL do not burn the user's token.
 
-    // Public publishable key — safe to expose, RLS protects data.
-    const SUPABASE_URL = 'https://glnhnzmwiywnzqqpkygu.supabase.co'
-    const SUPABASE_ANON_KEY = 'sb_publishable_FZwTYbXKg0z4S0GBzDV4ag_nM8JQ3qM'
+    // Public publishable key — safe to expose; RLS protects data.
+    const AUTH_URL = 'https://glnhnzmwiywnzqqpkygu.supabase.co/auth/v1'
+    const PUBLISHABLE_KEY = 'sb_publishable_FZwTYbXKg0z4S0GBzDV4ag_nM8JQ3qM'
+    const APP_CALLBACK = 'io.supabase.appchurras://login-callback/'
+    const MIN_PASSWORD_LENGTH = 8 // AppConfig.minPasswordLength
+    const MAX_PASSWORD_BYTES = 72 // AppConfig.maxPasswordBytes (bcrypt limit)
+    const REQUEST_TIMEOUT_MS = 15000
 
-    const sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-      auth: { detectSessionInUrl: true, flowType: 'implicit' }
-    })
+    const MESSAGES = {
+      saving: 'Salvando…',
+      success: 'Senha alterada. Agora é só entrar no app Zplit com a nova senha.',
+      mismatch: 'As senhas não coincidem.',
+      too_short: `A senha precisa ter pelo menos ${MIN_PASSWORD_LENGTH} caracteres.`,
+      too_long: 'A senha é longa demais.',
+      expired: 'Este link expirou ou já foi usado. Peça um novo em "Esqueci minha senha" no app Zplit.',
+      same_password: 'A nova senha precisa ser diferente da atual.',
+      weak_password: 'Essa senha é fraca demais. Escolha outra.',
+      rate_limited: 'Muitas tentativas. Aguarde alguns minutos e tente de novo.',
+      network: 'Não foi possível falar com o servidor. Verifique sua conexão e tente de novo.',
+      generic: 'Não foi possível salvar. Tente de novo.',
+    }
 
-    const hash = window.location.hash || ''
-    const deepLink = 'io.supabase.appchurras://login-callback/' + hash
-    document.getElementById('open-app-btn').href = deepLink
+    // The fragment never reaches a server (GitHub Pages never sees the token).
+    const params = new URLSearchParams(window.location.hash.slice(1))
+    const tokenHash = params.get('token_hash')
+    const type = params.get('type')
+    // Keep the token out of the address bar and browser history: the form
+    // exists for computers, and computers are shared.
+    history.replaceState(null, '', window.location.pathname)
 
-    let switched = false
-    document.addEventListener('visibilitychange', () => {
-      if (document.hidden) switched = true
-    })
-    window.location.href = deepLink
-    setTimeout(() => {
-      if (!switched) {
-        document.getElementById('stage-deeplink').hidden = true
-        document.getElementById('stage-web').hidden = false
+    const $ = (id) => document.getElementById(id)
+    const form = $('reset-form')
+    const button = form.querySelector('button[type=submit]')
+    const msg = $('form-msg')
+
+    if (!tokenHash || type !== 'recovery') {
+      $('stage-invalid').hidden = false
+    } else {
+      if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        const verify = new URL(`${AUTH_URL}/verify`)
+        verify.searchParams.set('token', tokenHash)
+        verify.searchParams.set('type', 'recovery')
+        verify.searchParams.set('redirect_to', APP_CALLBACK)
+        $('open-app-btn').href = verify.toString()
+        $('stage-app').hidden = false
       }
-    }, 1500)
+      $('stage-form').hidden = false
+    }
 
-    const form = document.getElementById('reset-form')
-    const msg = document.getElementById('form-msg')
+    function show(kind) {
+      msg.textContent = MESSAGES[kind]
+      msg.dataset.kind = kind
+      msg.className = kind === 'saving' ? 'msg' : kind === 'success' ? 'msg msg-success' : 'msg msg-error'
+    }
+
+    async function authRequest(path, { method = 'POST', body, accessToken } = {}) {
+      const headers = { apikey: PUBLISHABLE_KEY }
+      if (body) headers['Content-Type'] = 'application/json'
+      if (accessToken) headers.Authorization = `Bearer ${accessToken}`
+      const res = await fetch(`${AUTH_URL}${path}`, {
+        method,
+        headers,
+        body: body ? JSON.stringify(body) : undefined,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+      })
+      const data = await res.json().catch(() => ({}))
+      return { ok: res.ok, status: res.status, code: typeof data.error_code === 'string' ? data.error_code : '', data }
+    }
+
+    // Held in memory only, never persisted: a retry after "same password" must
+    // not re-verify (the token is already spent), and closing the tab must
+    // leave nothing behind.
+    let accessToken = null
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault()
       const fd = new FormData(form)
-      const password = fd.get('password')
-      const confirm = fd.get('confirm')
-      if (password !== confirm) {
-        msg.textContent = 'As senhas não coincidem.'
-        msg.className = 'msg msg-error'
-        return
+      const password = String(fd.get('password') ?? '')
+      const confirm = String(fd.get('confirm') ?? '')
+
+      if (password.length < MIN_PASSWORD_LENGTH) return show('too_short')
+      if (new TextEncoder().encode(password).length > MAX_PASSWORD_BYTES) return show('too_long')
+      if (password !== confirm) return show('mismatch')
+
+      button.disabled = true
+      show('saving')
+      let done = false
+      try {
+        if (!accessToken) {
+          const verified = await authRequest('/verify', { body: { type: 'recovery', token_hash: tokenHash } })
+          if (!verified.ok) {
+            if (verified.status === 429) return show('rate_limited')
+            if (verified.status >= 500) return show('generic')
+            done = true // 4xx: invalid, expired or already used; retrying cannot help
+            return show('expired')
+          }
+          accessToken = verified.data.access_token
+          // The token is spent; the app path can no longer work.
+          $('stage-app').hidden = true
+        }
+
+        const updated = await authRequest('/user', { method: 'PUT', body: { password }, accessToken })
+        if (!updated.ok) {
+          if (updated.code === 'same_password') return show('same_password')
+          if (updated.code === 'weak_password') return show('weak_password')
+          if (updated.status === 429) return show('rate_limited')
+          return show('generic')
+        }
+
+        // The password is set; this browser has no further use for the session.
+        await authRequest('/logout?scope=local', { accessToken }).catch(() => {})
+        accessToken = null
+        done = true
+        form.reset()
+        show('success')
+      } catch {
+        show('network')
+      } finally {
+        button.disabled = done
       }
-      msg.textContent = 'Salvando…'
-      msg.className = 'msg'
-      const { error } = await sb.auth.updateUser({ password })
-      if (error) {
-        msg.textContent = 'Não foi possível salvar. O link pode ter expirado.'
-        msg.className = 'msg msg-error'
-        return
-      }
-      msg.textContent = 'Senha alterada. Você já pode voltar ao app.'
-      msg.className = 'msg msg-success'
-      form.reset()
-      form.querySelector('button').disabled = true
     })
   </script>
 </body>
