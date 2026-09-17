@@ -1,4 +1,4 @@
-# Termos de Uso — Zplit
+# Termos de Uso — Zsplit
 
 **Última atualização:** 06/05/2026
 
@@ -8,19 +8,19 @@
 
 ## §1 Identificação do responsável
 
-O aplicativo Zplit é desenvolvido e operado por **55.936.782 LUCAS SCHMIDT**, inscrita no CNPJ sob o nº **55.936.782/0001-67**. Para qualquer assunto relativo a estes Termos de Uso, o canal oficial de contato é o e-mail **zplit.team@gmail.com**.
+O aplicativo Zsplit é desenvolvido e operado por **55.936.782 LUCAS SCHMIDT**, inscrita no CNPJ sob o nº **55.936.782/0001-67**. Para qualquer assunto relativo a estes Termos de Uso, o canal oficial de contato é o e-mail **zplit.team@gmail.com**.
 
 Estes Termos são publicados em conformidade com o **Marco Civil da Internet (Lei nº 12.965/2014)**, que rege o uso da internet no Brasil e exige a identificação clara do responsável pelo serviço, a descrição das condições de uso e do escopo das funcionalidades.
 
 ## §2 Aceitação destes Termos
 
-Ao **criar uma conta** ou **usar o Zplit** de qualquer forma, você declara ter lido, entendido e aceitado integralmente estes Termos de Uso, bem como a [Política de Privacidade](../pt/privacidade). Se você não concorda com qualquer disposição destes Termos, **não utilize o aplicativo**.
+Ao **criar uma conta** ou **usar o Zsplit** de qualquer forma, você declara ter lido, entendido e aceitado integralmente estes Termos de Uso, bem como a [Política de Privacidade](../pt/privacidade). Se você não concorda com qualquer disposição destes Termos, **não utilize o aplicativo**.
 
 A aceitação destes Termos é condição indispensável para o acesso ao serviço.
 
-## §3 O que é o Zplit
+## §3 O que é o Zsplit
 
-O Zplit é uma **calculadora de divisão de despesas para eventos**. Ele permite que você:
+O Zsplit é uma **calculadora de divisão de despesas para eventos**. Ele permite que você:
 
 - Organize eventos (churrascos, viagens, festas, etc.);
 - Adicione participantes (com nome e telefone opcional);
@@ -29,19 +29,19 @@ O Zplit é uma **calculadora de divisão de despesas para eventos**. Ele permite
 - Importe itens de cupom fiscal por meio de inteligência artificial;
 - Compartilhe valores e mensagens de cobrança via deep link de WhatsApp.
 
-**O Zplit não processa pagamentos.** O aplicativo apenas calcula valores e organiza informações. **A transferência efetiva de dinheiro entre você e seus participantes acontece fora do Zplit**, por meios escolhidos exclusivamente por você (Pix, transferência bancária, dinheiro em espécie, etc.). O Zplit não é uma instituição de pagamento, não custodia valores, não intermedeia transações financeiras e não atua como adquirente, sub-adquirente ou facilitador de pagamentos.
+**O Zsplit não processa pagamentos.** O aplicativo apenas calcula valores e organiza informações. **A transferência efetiva de dinheiro entre você e seus participantes acontece fora do Zsplit**, por meios escolhidos exclusivamente por você (Pix, transferência bancária, dinheiro em espécie, etc.). O Zsplit não é uma instituição de pagamento, não custodia valores, não intermedeia transações financeiras e não atua como adquirente, sub-adquirente ou facilitador de pagamentos.
 
-Quando o Zplit oferece atalhos via WhatsApp, a mensagem é apenas pré-preenchida e enviada **pelo seu próprio aplicativo de WhatsApp**, sob suas credenciais e responsabilidade.
+Quando o Zsplit oferece atalhos via WhatsApp, a mensagem é apenas pré-preenchida e enviada **pelo seu próprio aplicativo de WhatsApp**, sob suas credenciais e responsabilidade.
 
 ## §4 Quem pode usar
 
-Para usar o Zplit, você deve ter **capacidade civil** nos termos da legislação brasileira. **Menores de 18 anos** podem usar o aplicativo desde que com **consentimento e supervisão dos pais ou responsáveis legais**, conforme detalhado na [Política de Privacidade, §9](../pt/privacidade#9-criancas-e-adolescentes).
+Para usar o Zsplit, você deve ter **capacidade civil** nos termos da legislação brasileira. **Menores de 18 anos** podem usar o aplicativo desde que com **consentimento e supervisão dos pais ou responsáveis legais**, conforme detalhado na [Política de Privacidade, §9](../pt/privacidade#9-criancas-e-adolescentes).
 
 Você declara que as informações de cadastro fornecidas são verdadeiras, completas e atualizadas, e que assume responsabilidade integral por mantê-las assim.
 
 ## §5 Sua conta
 
-A sua conta no Zplit é **pessoal e intransferível**. Você é responsável por:
+A sua conta no Zsplit é **pessoal e intransferível**. Você é responsável por:
 
 - **Manter a confidencialidade da sua senha** e demais credenciais de acesso;
 - **Manter os dados de cadastro atualizados** (e-mail, nome, telefone, se preenchido);
@@ -50,10 +50,10 @@ A sua conta no Zplit é **pessoal e intransferível**. Você é responsável por
 
 ## §6 Uso aceitável
 
-Você concorda em **não utilizar o Zplit** para:
+Você concorda em **não utilizar o Zsplit** para:
 
 - Finalidades **ilegais** ou que violem direitos de terceiros;
-- **Enviar spam** aos participantes — os atalhos de WhatsApp do Zplit destinam-se exclusivamente a comunicar valores e cobranças legítimas a pessoas com as quais você efetivamente compartilhou despesas, e jamais para envio em massa, propaganda ou comunicação não solicitada;
+- **Enviar spam** aos participantes — os atalhos de WhatsApp do Zsplit destinam-se exclusivamente a comunicar valores e cobranças legítimas a pessoas com as quais você efetivamente compartilhou despesas, e jamais para envio em massa, propaganda ou comunicação não solicitada;
 - Tentar **quebrar a segurança** do serviço, fazer **engenharia reversa**, **scraping**, ou explorar vulnerabilidades de qualquer natureza;
 - Enviar **imagens de cupom fiscal** que não sejam **autênticas** e relativas a despesas suas;
 - Importar **dados pessoais de terceiros** (nomes, telefones de participantes) sem o **devido consentimento** dos titulares;
@@ -62,15 +62,15 @@ Você concorda em **não utilizar o Zplit** para:
 
 ## §7 Conteúdo do usuário e propriedade intelectual
 
-**Seus dados são seus.** Você mantém a titularidade integral sobre todo o conteúdo que insere no Zplit (nomes de eventos, descrições, valores de despesas, dados dos participantes que você adiciona, imagens de cupom fiscal, etc.).
+**Seus dados são seus.** Você mantém a titularidade integral sobre todo o conteúdo que insere no Zsplit (nomes de eventos, descrições, valores de despesas, dados dos participantes que você adiciona, imagens de cupom fiscal, etc.).
 
 Para que o serviço possa funcionar, você concede a **55.936.782 LUCAS SCHMIDT** uma **licença limitada, gratuita, não exclusiva e revogável** para processar, armazenar e exibir esses dados estritamente para o propósito de **operar o serviço para você**. Essa licença termina quando você exclui o conteúdo ou a sua conta.
 
-O **código-fonte, design, layout, marca, logotipo, nome "Zplit", textos, ícones e demais materiais** do aplicativo são de **propriedade exclusiva de 55.936.782 LUCAS SCHMIDT** ou de seus licenciantes, protegidos pela legislação brasileira de propriedade intelectual e direitos autorais. **Nada nestes Termos transfere a você qualquer direito sobre essa propriedade intelectual.** É proibido copiar, modificar, distribuir, vender ou criar obras derivadas sem autorização expressa por escrito.
+O **código-fonte, design, layout, marca, logotipo, nome "Zsplit", textos, ícones e demais materiais** do aplicativo são de **propriedade exclusiva de 55.936.782 LUCAS SCHMIDT** ou de seus licenciantes, protegidos pela legislação brasileira de propriedade intelectual e direitos autorais. **Nada nestes Termos transfere a você qualquer direito sobre essa propriedade intelectual.** É proibido copiar, modificar, distribuir, vender ou criar obras derivadas sem autorização expressa por escrito.
 
 ## §8 Funcionalidades pagas vs gratuitas
 
-**Atualmente, todas as funcionalidades do Zplit são gratuitas.** Não cobramos nada pelo uso do aplicativo, não há plano premium, não há compras dentro do aplicativo e não há paywall em nenhuma funcionalidade existente.
+**Atualmente, todas as funcionalidades do Zsplit são gratuitas.** Não cobramos nada pelo uso do aplicativo, não há plano premium, não há compras dentro do aplicativo e não há paywall em nenhuma funcionalidade existente.
 
 Reservamo-nos, entretanto, o direito de **introduzir funcionalidades pagas** (planos de assinatura, recursos avançados, limites estendidos, etc.) **no futuro**. Caso isso ocorra:
 
@@ -80,14 +80,14 @@ Reservamo-nos, entretanto, o direito de **introduzir funcionalidades pagas** (pl
 
 ## §9 Limitações de responsabilidade
 
-O Zplit é fornecido **"como está"** e **"conforme disponível"**, sem garantias de qualquer espécie, expressas ou implícitas, incluindo, mas não se limitando a, garantias de adequação a um propósito específico, ausência de erros ou disponibilidade ininterrupta.
+O Zsplit é fornecido **"como está"** e **"conforme disponível"**, sem garantias de qualquer espécie, expressas ou implícitas, incluindo, mas não se limitando a, garantias de adequação a um propósito específico, ausência de erros ou disponibilidade ininterrupta.
 
-**Você é o único responsável por conferir os cálculos** apresentados pelo aplicativo antes de cobrar qualquer valor de seus participantes. O Zplit não substitui a sua diligência: revise os totais, os itens importados via cupom fiscal e a divisão antes de comunicar valores.
+**Você é o único responsável por conferir os cálculos** apresentados pelo aplicativo antes de cobrar qualquer valor de seus participantes. O Zsplit não substitui a sua diligência: revise os totais, os itens importados via cupom fiscal e a divisão antes de comunicar valores.
 
 Na máxima extensão permitida pela legislação aplicável, **55.936.782 LUCAS SCHMIDT não se responsabiliza por**:
 
 - Divergências entre o cálculo apresentado pelo aplicativo e o valor efetivamente devido em razão de erro de digitação, omissão de despesa, alteração posterior de itens ou qualquer outra causa imputável a você;
-- **Disputas entre você e seus participantes** sobre pagamentos, valores devidos, cobranças ou ressarcimentos — o Zplit não atua como mediador, intermediário ou árbitro dessas relações;
+- **Disputas entre você e seus participantes** sobre pagamentos, valores devidos, cobranças ou ressarcimentos — o Zsplit não atua como mediador, intermediário ou árbitro dessas relações;
 - Indisponibilidades do serviço, lentidão, perda de dados ou falhas decorrentes de **terceiros** (Supabase, Google, operadoras de telefonia, provedores de internet) ou de eventos de força maior;
 - Resultados imprecisos ou incompletos da função de **importação de cupom fiscal** — esta função utiliza inteligência artificial e pode falhar, omitir itens ou interpretá-los incorretamente; sempre revise antes de salvar.
 
@@ -111,13 +111,13 @@ Quando possível e legalmente permitido, comunicaremos previamente o motivo da s
 
 Podemos alterar estes Termos de Uso de tempos em tempos para refletir mudanças na legislação, em práticas operacionais ou em funcionalidades do aplicativo. A data em **"Última atualização"** (no topo do documento) sempre refletirá a versão mais recente.
 
-Em caso de **mudanças materiais** — por exemplo, alteração de cláusula de responsabilidade, introdução de funcionalidades pagas, mudança de foro — exibiremos um **aviso destacado no aplicativo antes da entrada em vigor**, com tempo razoável para sua avaliação. **O uso continuado do Zplit após a entrada em vigor da nova versão constitui aceitação das alterações.** Se você não concordar com a nova versão, deverá encerrar a sua conta antes da data de vigência.
+Em caso de **mudanças materiais** — por exemplo, alteração de cláusula de responsabilidade, introdução de funcionalidades pagas, mudança de foro — exibiremos um **aviso destacado no aplicativo antes da entrada em vigor**, com tempo razoável para sua avaliação. **O uso continuado do Zsplit após a entrada em vigor da nova versão constitui aceitação das alterações.** Se você não concordar com a nova versão, deverá encerrar a sua conta antes da data de vigência.
 
 ## §12 Lei aplicável e foro
 
 Estes Termos são regidos pelas **leis da República Federativa do Brasil**, em especial pelo **Marco Civil da Internet (Lei nº 12.965/2014)**, pelo **Código de Defesa do Consumidor (Lei nº 8.078/1990)**, quando aplicável, e pela **Lei Geral de Proteção de Dados (Lei nº 13.709/2018)**.
 
-Fica eleito o **foro da Comarca de Blumenau/SC** como competente para dirimir quaisquer controvérsias decorrentes destes Termos ou do uso do Zplit, com **renúncia expressa a qualquer outro foro**, por mais privilegiado que seja, ressalvadas as hipóteses de competência absoluta previstas em lei (em especial o foro do domicílio do consumidor, quando aplicável o Código de Defesa do Consumidor).
+Fica eleito o **foro da Comarca de Blumenau/SC** como competente para dirimir quaisquer controvérsias decorrentes destes Termos ou do uso do Zsplit, com **renúncia expressa a qualquer outro foro**, por mais privilegiado que seja, ressalvadas as hipóteses de competência absoluta previstas em lei (em especial o foro do domicílio do consumidor, quando aplicável o Código de Defesa do Consumidor).
 
 ## §13 Contato
 
