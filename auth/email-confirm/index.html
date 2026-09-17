@@ -3,20 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Email confirmado — Zplit</title>
+  <meta name="referrer" content="no-referrer" />
+  <meta name="robots" content="noindex" />
+  <title>Confirmação de email — Zplit</title>
   <link rel="stylesheet" href="../auth.css" />
 </head>
 <body class="auth-bg">
   <main class="auth-card">
     <img src="../zplit-mark.svg" alt="Zplit" class="auth-logo" />
-    <h1>Email confirmado</h1>
-    <p>Você já pode voltar ao app Zplit.</p>
-    <a id="open-app-btn" class="btn-primary" href="#">Abrir o Zplit</a>
+    <h1 id="title">Confirmação de email</h1>
+    <p id="status" class="msg" role="status"></p>
+    <a id="open-app-btn" class="btn-primary" href="io.supabase.appchurras://login-callback/" hidden>Abrir o Zplit</a>
   </main>
+
   <script>
-    const hash = window.location.hash || ''
-    document.getElementById('open-app-btn').href =
-      'io.supabase.appchurras://login-callback/' + hash
+    // A alteração de email é aplicada pelo Supabase quando o link é clicado —
+    // esta página só conta ao usuário o que aconteceu. Ela NUNCA repassa o
+    // fragmento ao app: neste fluxo (implícito, porque updateUser não manda
+    // code_challenge) o fragmento traz uma sessão inteira, e qualquer app
+    // registrado no esquema io.supabase.appchurras:// poderia recolhê-la. O app
+    // ignora esse formato de qualquer modo, porque roda o fluxo PKCE.
+    //
+    // Com "Secure email change" ligado são DOIS emails, um para cada endereço.
+    // A primeira confirmação volta só com `message`: dizer "email confirmado"
+    // aí é mentira, e o usuário para no meio do caminho.
+
+    const STATES = {
+      confirmed: {
+        title: 'Email confirmado',
+        text: 'Seu endereço de email foi atualizado. Você já pode voltar ao app Zplit.',
+        showButton: true,
+      },
+      pending: {
+        title: 'Falta um passo',
+        text: 'Confirme também pelo link enviado ao outro endereço de email. A alteração só vale depois das duas confirmações.',
+        showButton: false,
+      },
+      error: {
+        title: 'Link inválido',
+        text: 'Este link expirou ou já foi usado. Peça a alteração de email de novo no app Zplit.',
+        showButton: false,
+      },
+      unknown: {
+        title: 'Confirmação de email',
+        text: 'Se você confirmou pelo link do email, já pode voltar ao app Zplit.',
+        showButton: true,
+      },
+    }
+
+    const params = new URLSearchParams(window.location.hash.slice(1))
+    const kind = params.has('error') || params.has('error_description')
+      ? 'error'
+      : params.has('message')
+        ? 'pending'
+        : params.has('access_token')
+          ? 'confirmed'
+          : 'unknown'
+
+    // Tira a sessão da barra de endereços e do histórico.
+    history.replaceState(null, '', window.location.pathname)
+
+    const state = STATES[kind]
+    document.getElementById('title').textContent = state.title
+    const status = document.getElementById('status')
+    status.textContent = state.text
+    status.dataset.kind = kind
+    status.className = kind === 'error' ? 'msg msg-error' : kind === 'confirmed' ? 'msg msg-success' : 'msg'
+    document.getElementById('open-app-btn').hidden = !state.showButton
   </script>
 </body>
 </html>
